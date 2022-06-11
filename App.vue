@@ -1,5 +1,17 @@
+<script setup lang="ts">
+// Global meta data
+definePageMeta({
+  link: [
+    {
+      rel: 'favicon',
+      src: '/favicon.ico',
+    },
+  ],
+});
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <Html lang="fr">
+    <NuxtPage />
+  </Html>
 </template>
